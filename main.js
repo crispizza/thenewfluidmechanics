@@ -91,6 +91,7 @@ function GetHTML(id, strNavigation, contents){
   <meta charset="utf-8">
 </head>
 <body>
+  <h2>MACBOOK UPLOAD?</h2>
   <h1><a href="/">앨리스 읽기</a></h1>
   ${strNavigation}
   <a href="/create">
