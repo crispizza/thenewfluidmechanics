@@ -68,16 +68,12 @@ app.listen(3000); //포트의 기본값은 80
 /*Get Navigation*/
 function GetNavigation(fs){  
     var list = fs.readdirSync('data/', 'utf8');
-    var string = "<ul>";
-  
-    var size = list.length;
-  
+    var string = "<ul>";  
+    var size = list.length;  
     for (var i = 0; i < size; i++) {
       string = string + `<li><a href="/?id=${list[i]}">${list[i]}</a></li>`;
-    }
-  
-    string = string + "</ul>";
-  
+    }  
+    string = string + "</ul>";  
   return string;
 }
 
@@ -91,7 +87,6 @@ function GetHTML(id, strNavigation, contents){
   <meta charset="utf-8">
 </head>
 <body>
-  <h2>MACBOOK UPLOAD?</h2>
   <h1><a href="/">앨리스 읽기</a></h1>
   ${strNavigation}
   <a href="/create">
