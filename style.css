@@ -1,0 +1,33 @@
+body {
+    font-family: 'Noto Serif KR', serif;
+}
+
+html {
+}
+
+H1 {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 48px;
+}
+
+p {
+    font-family: 'Noto Serif KR', serif;
+    font-size: 24px;
+}
+
+li{
+    font-size: 24px;
+}
+
+a:link,a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #FAA;
+}
+
+a:active{
+    color: #F00;
+}
